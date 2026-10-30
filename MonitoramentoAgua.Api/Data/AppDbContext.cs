@@ -8,6 +8,6 @@ namespace MonitoramentoAgua.Api.Data
             : base(options)
         {
         }
-        public DbSet<Models.MedicaoAgua> MedicoesAgua { get; set; }
+        public DbSet<Models.MedicaoAgua> Medicoes { get; set; }
     }
 }
